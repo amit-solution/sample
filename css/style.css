@@ -1,0 +1,46 @@
+*{margin:0;padding:0;}
+body{font-family:Arial;font-size:16px;background-image:url(../images/floor-tile.png)}
+.fix{overflow:hidden;}
+.main{width:960px;margin:15px auto;display:block;background:#E8E8FF;}
+header{width:960px;overflow:hidden;}
+.header_letf{float:left;width:300px;}
+.header_letf img{width:150px;height:150px;}
+.header_right{float:right;width:300px;}
+.share{float:left;}
+.share img{width:30px;height:30px;margin-right:5px;}
+.menu{background:#00B3F4;width:960px;min-height:40px;}
+.menu ul{margin:0;padding:0;list-style:none;}
+.menu ul li{float:left;border-right:1px solid #045A79;border-left:1px solid #21C1FB;position: relative;}
+.menu ul li:first-child{border-left:0px solid #21C1FB}
+.menu ul li:last-child{border-right:0px solid #045A79;}
+.menu ul li a{background:#00B3F4;display:block;padding:10px 25px;text-decoration:none;color:#FFFFFF}
+.menu ul li a:hover{background:#33697D;}
+
+/*Dropdown menu start*/
+.menu ul li ul{position: absolute;left:-99999px;z-index:1000000;}
+.menu ul li:hover ul{left:0px;}
+.menu ul li ul li{float:none;border-top:1px solid #21C1FB;border-bottom:1px solid #045A79;width:200px;border-right:0px solid;border-left:0px solid;}
+.menu ul li ul li a{background:#00B3F4;display:block;padding:5px 25px;text-decoration:none;color:#FFFFFF}
+.menu ul li ul li a:hover{background:#33697D;}
+/*Dropdown menu end*/
+
+.slider{width:960px;}
+.main_contant{width:960px;margin-bottom:25px;margin-top:25px;}
+.contant{width:600px;float:left;margin-left:10px;}
+.sitebar{width:300px;margin-left:30px;margin-right:10px;float:right;}
+.sitebar h2{background:#D1762F;padding:5px;}
+.sitebar ul{list-style:none;background:#A0A0A0;}
+.sitebar ul li{border-bottom:1px solid #FFFFFF;}
+.sitebar ul li a{padding:5px;text-decoration:none;color:black;display:block;}
+.sitebar ul li a:hover{background:#FFFFFF;}
+footer{background:#00A5FD;padding:8px 44px;overflow:hidden;}
+blockquote{margin:25px;border-left: 5px solid green;padding:0px 31px;background:#B1B8C4;color:red;font-weight:bold;box-shadow: 6px 6px 5px 4px #6657A6}
+div#sticker {
+
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:9999999999999
+}
+audio{width:600px;}
